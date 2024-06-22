@@ -1,5 +1,6 @@
-﻿# Extension-Bug-Key-Link
-# Thông Tin
+# Extension-Bug-Key-Link
+
+## Thông Tin
 <p align="center">
   <a href="https://youtube.com/@HuyKaiserDev?si=RaQ8BvgLRUV2JQr4">
     <img alt="Youtube" title="Youtube" src="https://img.shields.io/badge/-Youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
@@ -12,28 +13,27 @@
   </a>
 </p>
 
-# Chức Năng
-- Liên kết hỗ trợ  
-      Laymangay.com
-      Link68.net
-      Traffic123.net
-      Traffic24h.net
-      Trafficdownload1s.com
-      Dilink.net
-      Mneylink.com
-      Traffic1s.com
-      Traffic-user.vn
-      Link2m.com
-      Link4m.com
-      Beelink.app
-      MemeLink.net
-      Blitly.io
+## Chức Năng
+- Liên kết hỗ trợ:
+  - Laymangay.com
+  - Link68.net
+  - Traffic123.net
+  - Traffic24h.net
+  - Trafficdownload1s.com
+  - Dilink.net
+  - Mneylink.com
+  - Traffic1s.com
+  - Traffic-user.vn
+  - Link2m.com
+  - Link4m.com
+  - Beelink.app
+  - MemeLink.net
+  - Blitly.io
 
-# Khác
+## Khác
 - **Name**: *HuyKaiser*
-- **SourceCode**: *Coins-Master Extra*
-- **Version**: *1.1.1*
+- **SourceCode**: *Extension Bug Key Link*
+- **Version**: *7.0.1*
 
-# Author
-- **Thanks Author**: *Samuraitruong*
-- **Thanks Author**: *HuyKaiser*
+## Author
+- **Author**: *HuyKaiser*
