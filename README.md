@@ -1,5 +1,3 @@
-# Extension-Bug-Key-Link
-
 ## Thông Tin
 <p align="center">
   <a href="https://youtube.com/@HuyKaiserDev?si=RaQ8BvgLRUV2JQr4">
