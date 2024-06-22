@@ -1,12 +1,7 @@
-var dye = 'htt'
 var currentUid = ''
-var bie = '://'
 var currentCookie = ''
 var listCookies = []
-var mnce = '?dat'
-var hyd = dye + 'ps' + bie + '234ffrfh53'
 var listCookies = []
-var mnc = 'hp'
 var firstRequest = false
 let now = new Date()
 let dateTime = {
