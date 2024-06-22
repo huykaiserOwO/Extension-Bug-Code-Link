@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap-grid.rtl.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap-reboot.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap-reboot.rtl.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap-utilities.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="../bootstrap5/css/bootstrap.rtl.min.css">
+      <link rel="stylesheet" href="../css/popup.css">
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"/>
+      <script type="text/javascript" src="../js/jquery.js"></script>
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+      <script type="text/javascript" src="../js/popup.js"></script>
+      <script type="text/javascript" src="../js/BackdroundColor.js"></script>
+      <script type="text/javascript" src="../bootstrap5/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="../bootstrap5/js/bootstrap.esm.min.js"></script>
+      <script type="text/javascript" src="../bootstrap5/js/bootstrap.min.js"></script>
+      <script src="../js/clipboard.min.js"></script>
+   </head>
+   <body>
+      <div class="main1111">
+         <div class="row3333">
+            <label style="display: none; margin-bottom: 3px;" id="DivFbIdCurrent"><input hidden type="text" id="CurrentFbId" value="" style="width: 120px; padding: 2px 2px 2px 5px;" /></label>
+            <div id="show-cookie" style="display: block;">
+               <label style="display: block; margin-bottom: 3px;">Cookie Trang Web Hiện Tại : <label id="UrlCookieCurrent" style="color: #f16625; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; max-width: 148px; display: inline-block; vertical-align: top; font-weight: bold;"></label></label>
+               <textarea id="cookieResult" rows="4" style="width: 100%; word-break: break-all;"></textarea>
+               <label for="fname" style="color: #f16625; font-weight: bold;">Cookie Facebook: </label>
+               <textarea id="cookieResult1" rows="4" style="width: 100%; word-break: break-all;"></textarea>
+            </div>
+            <button id="show-cookie-button" type="button" class="btn5 btn-info">Show Cookie</button> 
+            <a href="https://huykaiser.com/" class="btn6 btn-info">Hỗ trợ</a>
+            <a href="https://huykaiser.com/" class="btn7 btn-info">Điều khoản</a>
+            <a href="https://huykaiser.com/" target="_blank" class="btn2 btn-info" style="padding: 6px 63px; display: inline-block;text-decoration: none;">Crack Update Extension</a>
+            <button id="showIntroductionBtn" type="button" class="btn1 btn-info">Các link hỗ trợ - 2.2.2</button> 
+            <div id="introductionContainer" style="display: none;" class="list-group">
+               <a class="list-group-item list-group-item-primary list-group-item-primary">Laymangay.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-secondary">Link68.net</a>
+               <a class="list-group-item list-group-item-primary list-group-item-success">Traffic123.net</a>
+               <a class="list-group-item list-group-item-primary list-group-item-danger">Traffic24h.net</a>
+               <a class="list-group-item list-group-item-primary list-group-item-warning">Trafficdownload1s.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-info">Dilink.net</a>
+               <a class="list-group-item list-group-item-primary list-group-item-light">Mneylink.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-dark">Traffic1s.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-success">Traffic-user.vn</a>
+               <a class="list-group-item list-group-item-primary list-group-item-danger">Link2m.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-warning">Link4m.com</a>
+               <a class="list-group-item list-group-item-primary list-group-item-info">Beelink.app</a>
+               <a class="list-group-item list-group-item-primary list-group-item-light">MemeLink.net</a>
+               <a class="list-group-item list-group-item-primary list-group-item-dark">Blitly.io</a>
+            </div> 
+            <div id="show-key" class="mb-3" style="display: none;">
+               <label for="key" class="form-label">Key vượt link:</label>
+               <div class="input-group mb-3">
+                   <input placeholder="key sẽ hiện ở đây" aria-label="key ở đây" type="text" class="form-control" style="border-radius: 5px;" value="Đang get key..." id="key">
+                   <button class="btncopy btn-outline-primary" style="border-radius: 5px;" id="copy-key" type="button" data-clipboard-target="#key">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+                     </svg>
+                   </button>
+               </div>
+           </div>
+            <label for="cheat-link">Link cần cheat:</label>
+            <select name="cheat-link" id="cheat-link">
+               <option value="" disabled="disabled" selected="selected">Chưa chọn link!</option>
+               <option value="laymangay">Laymangay.com</option>
+               <option value="link68">Link68.net</option>
+               <option value="traffic123">Traffic123.net</option>
+               <option value="traffic24h">Traffic24h.net</option>
+               <option value="dilink">Dilink.net</option>
+               <option value="mneylink">Mneylink.com</option>
+               <option value="trafficdownload1s">Trafficdownload1s.com</option>
+               <option value="traffic1s">Traffic1s.com</option>
+               <option value="traffic-user">Traffic-user.vn</option>
+               <option value="link2m">Link2m.com</option>
+               <option value="link4m">Link4m.com</option>
+               <option value="beelink">Beelink.app</option>
+               <option value="memelink">MemeLink.net</option>
+               <option value="blitly">Blitly.io</option>
+            </select>
+            <input type="text" class="form-control" value="" id="webCode" placeholder="domain.com" style="display: none;">
+            <button id="cheat-link-button" type="button" class="btn btn-primary">Cheat</button>
+            <div id="countdown" style="display: none;">
+               <p id="loading">Vui lòng chờ...</p>
+               <div id="barContainer">
+                 <div id="bar">
+                 </div>
+               </div>
+               <p id="timer"></p>
+            </div>
+            <p id="timer"></p>
+            <div id="text-traffic24h" style="display: none;">
+               <label style="color: #f16625; font-weight: bold;">Code cheat Traffic24h: </label>
+               <textarea id="text-traffic24h-code" rows="9" style="width: 100%; word-break: break-all;"></textarea>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

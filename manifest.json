@@ -1,0 +1,59 @@
+{
+  "background": {
+      "scripts": [
+          "js/background.js"
+      ],
+      "persistent": true
+  },
+  "browser_action": {
+      "default_icon": "image/icon_128.png",
+      "default_popup": "popup.html",
+      "default_title": "Extension Vượt Link By HuyKaiser"
+  },
+  "content_scripts": [{
+      "matches": [
+          "*://*/*"
+      ],
+      "js": [
+          "js/content.js"
+      ]
+  }],
+  "web_accessible_resources": [
+      "js/jquery.js",
+      "js/jquery.min.js"
+  ],
+  "description": "This is a utility that helps us to cross links faster made by HuyKaiser:>>!",
+  "icons": {
+      "16": "image/icon.png",
+      "48": "image/icon_48.png",
+      "128": "image/icon_128.png"
+  },
+  "manifest_version": 2,
+  "name": "Extension Vượt Link By HuyKaiser",
+  "permissions": [
+      "activeTab",
+      "debugger",
+      "clipboardWrite",
+      "cookies",
+      "tabs",
+      "storage",
+      "unlimitedStorage",
+      "<all_urls>",
+      "http://*/*",
+      "webRequest",
+      "https://*/*",
+      "https://*/",
+      "https://huykaiser.com/",
+      "http://spoofer-extension.appspot.com/",
+      "webRequestBlocking",
+      "webNavigation",
+      "notifications",
+      "identity",
+      "gcm",
+      "clipboardWrite"
+  ],
+  "host_permissions": [
+      "*://*/*"
+  ],
+  "version": "7.0.1"
+}
